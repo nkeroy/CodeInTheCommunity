@@ -7,7 +7,9 @@
 # FUNCTIONS
 def buildGlobalDict():
     # open file
-    file = open("C:\\Users\\nkero\\Downloads\\word_list.txt", "r")
+    # if you are using https://repl.it/languages/python3, replace below file name with "word_list.txt", after uploading the file on repl
+    # else if using command line or ipython, can replace filename with absolute file path
+    file = open("word_list.txt", "r")
     # read line
     # build dictionary
     while(True):
